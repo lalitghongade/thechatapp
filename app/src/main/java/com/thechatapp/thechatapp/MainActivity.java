@@ -73,4 +73,3 @@ public class MainActivity extends AppCompatActivity {
             message_content.setText(content);
         }
     }
-}
