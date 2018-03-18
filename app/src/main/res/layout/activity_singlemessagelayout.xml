@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/messageshape"
+    tools:context="com.thechatapp.thechatapp.singlemessagelayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="lala"
+        android:textColor="#536DFE"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:id="@+id/usernametext"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/messagetext"
+        android:text="hello friends"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:layout_marginRight="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:text="9:15 pm"
+        />
+
+</LinearLayout>
